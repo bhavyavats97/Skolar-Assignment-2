@@ -69,5 +69,19 @@ main {
     text-align: center;
     border-radius: 5px;
 }
+.header {
+    grid-area: header;
+}
 
-..c
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
